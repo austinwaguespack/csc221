@@ -14,7 +14,10 @@ import hw4_solution
 #
 # returns: boolean
 def is_odd(number):
-    return number%2==1
+    if number%2==1:
+        return True
+    else:
+        return False
 
 # --------------------------------------------------------------------
 # Problem 2
@@ -29,7 +32,10 @@ def is_odd(number):
 #
 # returns: boolean
 def is_even(number):
-    return number%2==0
+    if number%2==0:
+        return True
+    else:
+        return False
 
 
 # --------------------------------------------------------------------
@@ -45,7 +51,10 @@ def is_even(number):
 #
 # returns: boolean
 def is_mult_of_four(number):
-    return number/4==0
+    if number/4==0:
+        return True
+    else:
+        return False
 
 
 # --------------------------------------------------------------------
@@ -62,7 +71,10 @@ def is_mult_of_four(number):
 #
 # returns: boolean
 def is_mult_of_divisor(number, divisor):
-    return number/divisor==0
+    if number/divisor==0:
+        return True
+    else:
+        return False
 
 
 # --------------------------------------------------------------------
