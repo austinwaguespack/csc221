@@ -13,8 +13,8 @@ import hw4_solution
 # - number
 #
 # returns: boolean
-
-
+def is_odd(number):
+    return number%2==1
 
 # --------------------------------------------------------------------
 # Problem 2
@@ -28,7 +28,8 @@ import hw4_solution
 # - number
 #
 # returns: boolean
-
+def is_even(number):
+    return number%2==0
 
 
 # --------------------------------------------------------------------
@@ -43,7 +44,8 @@ import hw4_solution
 # - number
 #
 # returns: boolean
-
+def is_mult_of_four(number):
+    return number/4==0
 
 
 # --------------------------------------------------------------------
@@ -59,7 +61,8 @@ import hw4_solution
 # - divisor
 #
 # returns: boolean
-
+def is_mult_of_divisor(number, divisor):
+    return number/divisor==0
 
 
 # --------------------------------------------------------------------
@@ -75,3 +78,8 @@ import hw4_solution
 # - s
 #
 # returns: string
+def both_ends(s):
+    if string >2:
+        return ''
+    else:
+        return s[1, 2, -1, -2]
