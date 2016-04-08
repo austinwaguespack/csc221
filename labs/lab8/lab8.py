@@ -113,9 +113,9 @@ def match_ends(words):
     '''
     >>> match_ends(['racecar'])
     1
-    >>> match_ends(['racecar', 'war', 'rr', 'staples'])
+    >>> match_ends(['racecar', 'war', 'r', 'staples'])
     2
-    >>> match_ends(['war', 'rr', 'apple'])
+    >>> match_ends(['war', 'r', 'apple'])
     0
     >>> match_ends([])
     0
