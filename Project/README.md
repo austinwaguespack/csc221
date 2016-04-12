@@ -1,1 +1,3 @@
+#KJV Bible Search API
 
+The KJV Bible search is a very useful tool. The thing that this program will do is search in the Bible given the key word or verse. This will basically return any verse that has the key word, phrase, or number that the user provided. This is a program that can be used by anyone but most especially those wishing to read the Bible that need to figure out information relatively quick. This is also the point of this Bible search is that given a keyword or verse, users can find information about the topic that they are searching about. This will speed up the progress of searching for verses that the user needs to find.
